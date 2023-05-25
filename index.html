@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tarjeta de debito</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/chip-tarjeta.png">
+</head>
+
+<body>
+    <div class="contenedor">
+        <section class="tarjeta" id="tarjeta">
+            <div class="delantera">
+                <div class="logo-marca" id="logo-marca">
+                     <img src="./assets/img/visa.png" alt=""> 
+                </div>
+                <img src="./assets/img/chip-tarjeta.png" class="chip" alt="">
+                <div class="datos">
+                    <div class="grupo" id="numero">
+                        <p class="label">Número de Tarjeta</p>
+                        <p class="numero">4195 5241 2039 6138</p>
+                    </div>
+                    <div class="flexbox">
+                        <div class="grupo" id="nombre">
+                            <p class="label">Nombre de Tarjeta</p>
+                            <p class="nombre">Nazareno Tarchini</p>
+                        </div>
+
+                        <div class="grupo" id="expiracion">
+                            <p class="label">Expiracion</p>
+                            <p class="expiracion"><span class="mes">09</span> / <span class="year">28</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trasera">
+                <div class="barra-magnetica"></div>
+                <div class="datos">
+                    <div class="grupo" id="firma">
+                        <p class="label">Firma</p>
+                        <div class="firma">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="grupo" id="ccv">
+                        <p class="label">CCV</p>
+                        <p class="ccv">123</p>
+                    </div>
+                </div>
+                <p class="leyenda">Solicite a la operadora del país donde se encuentre el cobro revertido del llamado
+                    a la Republica Argentina.</p>
+                <a href="https://github.com/Ntarchini99" class="link-banco">www.tutarjetaconhtml.com.ar</a>
+            </div>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
